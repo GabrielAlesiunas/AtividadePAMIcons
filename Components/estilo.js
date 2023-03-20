@@ -18,28 +18,23 @@ const estilo = StyleSheet.create({
     width: '90%',
     marginBottom: 20,
     padding: 15,
+    flexDirection: 'row',
+    alignItems: 'center'
   },
   
-  familia_icones:{
-    backgroundColor: '#ccc',
-    borderRadius: 5,
-    width: '90%',
-    marginBottom: 20,
-    padding: 15,
-  },
-
   lista_icones:{
-    flexDirection: "row"
+    flexDirection: "row",
+    alignItems: 'center'
   },
   familia_titulos:{
     fontSize:30,
     borderStyle:'solid',
     borderColor:'#222',
-    borderBottomWidth: 2,
   },
 
   espaco_icones:{
-    margin: 5
+    margin: 20,
+    
   },
   
 });
